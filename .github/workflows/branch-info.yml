@@ -1,0 +1,56 @@
+name: Generate Branch Info
+
+on:
+  push
+
+permissions:
+  contents: write
+
+jobs:
+  generate-branch-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout all branches
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Fetch all branches
+        run: |
+          git fetch origin
+          for branch in $(git ls-remote --heads origin | awk '{print $2}' | sed 's|refs/heads/||'); do
+            if [ "$branch" != "main" ]; then
+              git fetch origin $branch:$branch
+            fi
+          done
+
+      - name: Generate branch-info.txt with commit details
+        run: |
+          echo "Branches in this repo (with details):" > branch-info.txt
+          for branch in $(git for-each-ref --format='%(refname:short)' refs/heads/); do
+            echo "" >> branch-info.txt
+            echo "- $branch" >> branch-info.txt
+
+            sha=$(git rev-parse "$branch")
+            echo "  SHA: $sha" >> branch-info.txt
+
+            count=$(git rev-list "$branch" --count)
+            echo "  Commits: $count" >> branch-info.txt
+
+            echo "  Recent commits:" >> branch-info.txt
+            git log "$branch" \
+              --pretty=format:'    %h | Author: %an <%ae> | Committer: %cn <%ce> | Date: %ad | %s' \
+              --date=iso-strict -n 5 >> branch-info.txt
+          done
+
+          echo "✅ branch-info.txt generated:"
+          cat branch-info.txt
+
+      - name: Commit and push branch-info.txt to main
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add branch-info.txt
+          git commit -m "Auto-update branch-info.txt" || echo "No changes to commit"
+          git push origin main
