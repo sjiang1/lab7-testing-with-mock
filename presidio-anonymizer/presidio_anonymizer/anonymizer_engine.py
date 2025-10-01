@@ -181,7 +181,7 @@ class AnonymizerEngine(EngineBase):
                 other_elements.append(result)
                 unique_text_metadata_elements.append(result)
             else:
-                self.logger.debug(
+                logger.debug(
                     f"removing element {result} from results list due to conflict"
                 )
 

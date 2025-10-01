@@ -29,6 +29,7 @@ class RecognizerResult(PIIEntity):
         PIIEntity.__init__(self, start, end, entity_type)
         self.score = score
         validate_parameter_exists(score, "analyzer result", "score")
+        self.logger.info(f"created analyzer result: entity_type='{entity_type}', start={start}, end={end}, score={score:.2f}")
 
     @classmethod
     def from_json(cls, data: Dict):
