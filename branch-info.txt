@@ -1,5 +1,14 @@
 Branches in this repo (with details):
 
+- dependabot/docker/presidio-anonymizer/python-3.14-windowsservercore
+  SHA: ae6b23e9d5c882cfa5d0e3d746670e88bb02eb43
+  Commits: 5
+  Recent commits:
+    ae6b23e | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-01T01:19:31Z | Bump python in /presidio-anonymizer
+    b626eb7 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-01T16:27:16Z | Auto-update branch-info.txt
+    0ff3268 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:29:25Z | Auto-update branch-info.txt
+    87d45b9 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:28:43Z | Auto-update branch-info.txt
+    3babad2 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-09-30T13:28:32-04:00 | Initial commit
 - dependabot/github_actions/actions/checkout-5
   SHA: 53241163796a2ddda31d64c85bd8c9048fc8ac53
   Commits: 3
@@ -16,9 +25,10 @@ Branches in this repo (with details):
     87d45b9 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:28:43Z | Auto-update branch-info.txt
     3babad2 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-09-30T13:28:32-04:00 | Initial commit
 - main
-  SHA: 0ff3268eb2508d4256030a128192b21ed459f3b4
-  Commits: 3
+  SHA: b626eb710ef8688c0348db1a0fd4f85bb07daed5
+  Commits: 4
   Recent commits:
+    b626eb7 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-01T16:27:16Z | Auto-update branch-info.txt
     0ff3268 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:29:25Z | Auto-update branch-info.txt
     87d45b9 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:28:43Z | Auto-update branch-info.txt
     3babad2 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-09-30T13:28:32-04:00 | Initial commit
