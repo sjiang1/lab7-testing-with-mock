@@ -9,13 +9,15 @@ Branches in this repo (with details):
     0ff3268 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:29:25Z | Auto-update branch-info.txt
     87d45b9 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:28:43Z | Auto-update branch-info.txt
     3babad2 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-09-30T13:28:32-04:00 | Initial commit
-- dependabot/github_actions/actions/checkout-5
-  SHA: 53241163796a2ddda31d64c85bd8c9048fc8ac53
-  Commits: 3
+- dependabot/github_actions/actions/checkout-6
+  SHA: ec0f2c10f08e9da503e6e08786283475dc7b130f
+  Commits: 6
   Recent commits:
-    5324116 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-09-30T17:29:16Z | Bump actions/checkout from 3 to 5
+    ec0f2c1 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-24T01:28:16Z | Bump actions/checkout from 3 to 6
+    213a8ec | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T01:19:39Z | Auto-update branch-info.txt
+    b626eb7 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-01T16:27:16Z | Auto-update branch-info.txt
+    0ff3268 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:29:25Z | Auto-update branch-info.txt
     87d45b9 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:28:43Z | Auto-update branch-info.txt
-    3babad2 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-09-30T13:28:32-04:00 | Initial commit
 - lab7
   SHA: 177384fbc694099da0c1865db32eafd4cc3f5938
   Commits: 4
@@ -25,9 +27,10 @@ Branches in this repo (with details):
     87d45b9 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:28:43Z | Auto-update branch-info.txt
     3babad2 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-09-30T13:28:32-04:00 | Initial commit
 - main
-  SHA: b626eb710ef8688c0348db1a0fd4f85bb07daed5
-  Commits: 4
+  SHA: 213a8ec1d4f00926c552cd7c91804f7f586cb296
+  Commits: 5
   Recent commits:
+    213a8ec | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T01:19:39Z | Auto-update branch-info.txt
     b626eb7 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-01T16:27:16Z | Auto-update branch-info.txt
     0ff3268 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:29:25Z | Auto-update branch-info.txt
     87d45b9 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-09-30T17:28:43Z | Auto-update branch-info.txt
